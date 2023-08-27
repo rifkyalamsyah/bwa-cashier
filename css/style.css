@@ -1,0 +1,26 @@
+:root {
+  /* color */
+  --blue: #3a38ff;
+  --light-blue: #f9fbfc;
+  --dark-blue: #101041;
+  --purple: #6261d8;
+  --light-purple: #e5e4ff;
+  --green: #316762;
+  --grey: #dfe2e7;
+  --medium-grey: #e7ebed;
+  --dark-grey: #949293;
+  --white: #ffffff;
+  --black: #121212;
+  /* font */
+  --fw-extra-bold: 800;
+  --fw-bold: 700;
+  --fw-semibold: 600;
+  --fw-medium: 500;
+  --fw-regular: 400;
+  --fw-light: 300;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  /* font-family: 'Space Grotesk', sans-serif; */
+}
