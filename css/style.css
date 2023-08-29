@@ -23,4 +23,141 @@
 body {
   font-family: 'DM Sans', sans-serif;
   /* font-family: 'Space Grotesk', sans-serif; */
+  background: var(--light-blue);
 }
+
+/* custom header */
+.big-header {
+  font-weight: var(--fw-extra-bold);
+  color: var(--dark-blue);
+  line-height: 48px;
+  margin: 0;
+}
+
+.medium-header {
+  font-weight: var(--fw-bold);
+  color: var(--dark-blue);
+  line-height: 28px;
+  margin: 0;
+}
+
+.small-header {
+  font-weight: var(--fw-bold);
+  color: var(--dark-blue);
+  line-height: 22px;
+  margin: 0;
+}
+
+.primary-copy {
+  font-weight: var(--fw-regular);
+  color: var(--dark-grey);
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+}
+/* end custom header */
+
+/* button */
+.btn-primary {
+  padding: 12px 20px 12px 20px;
+  background: var(--blue);
+  color: var(--white);
+  font-weight: var(--fw-semibold);
+  border-radius: 50px;
+  border: 0;
+}
+
+.btn-primary:hover {
+  background: var(--dark-blue);
+  color: var(--white);
+}
+
+.btn-secondary {
+  padding: 12px 20px 12px 20px;
+  background: var(--grey);
+  color: var(--dark-blue);
+  font-weight: var(--fw-medium);
+  border-radius: 50px;
+  border: 0;
+}
+
+.btn-secondary:hover {
+  background: var(--dark-blue);
+  color: var(--white) !important;
+}
+/* end button */
+
+/* navbar */
+.navbar {
+  --bs-navbar-padding-y: 0;
+}
+
+.navbar-nav .nav-item a:hover {
+  color: var(--blue);
+  transition: all 0.3s ease;
+  font-weight: var(--fw-semibold);
+}
+
+.navbar-nav .nav-item a {
+  color: var(--dark-blue);
+  transition: all 0.3s ease;
+}
+.navbar-nav .nav-item {
+  padding-right: 25px;
+  padding-left: 25px;
+  font-weight: var(--fw-regular);
+}
+
+.navbar-brand {
+  font-weight: var(--fw-bold);
+  font-size: 28px;
+  color: var(--dark-blue);
+}
+
+.cashier-navbar {
+  padding: 30px;
+  background-color: var(--white);
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+}
+/* end navbar */
+
+/* hero section */
+.hero .badge {
+  background: var(--light-purple);
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 50px;
+  gap: 8px;
+}
+
+.hero .small-copy {
+  font-weight: var(--fw-semibold);
+  color: var(--dark-blue);
+  font-size: 14px;
+  margin: auto;
+}
+/* end hero section */
+
+/* custom margin */
+.mt-70 {
+  margin-top: 70px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+/* end custom margin */
