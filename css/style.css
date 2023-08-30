@@ -149,6 +149,10 @@ body {
   margin-right: 10px;
 }
 
+.mr-30 {
+  margin-right: 30px;
+}
+
 .mb-10 {
   margin-bottom: 10px;
 }
@@ -161,3 +165,66 @@ body {
   margin-bottom: 30px;
 }
 /* end custom margin */
+
+/* brand section */
+.card-brand {
+  width: 227px;
+  height: 110px;
+  border-radius: 16px;
+  background: var(--medium-grey);
+  text-align: center;
+}
+
+.card-brand .logo {
+  height: 50px;
+  margin-top: 30px;
+}
+/* carousel right animation */
+.carousel-wrapper {
+  display: flex;
+  height: 110px;
+  animation: moveSlideToLeft 25s linear infinite;
+}
+
+.carousel {
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  height: 110px;
+  overflow: hidden;
+}
+
+/* animation loop */
+@keyframes moveSlideToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+/* carousel left animation */
+.carousel-wrapper-left {
+  display: flex;
+  height: 110px;
+  animation: moveSlideToRight 25s linear infinite;
+}
+
+.carousel-left {
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  height: 110px;
+  overflow: hidden;
+}
+
+@keyframes moveSlideToRight {
+  0% {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+/* end brand section */
