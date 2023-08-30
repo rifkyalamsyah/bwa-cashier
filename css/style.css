@@ -23,7 +23,7 @@
 body {
   font-family: 'DM Sans', sans-serif;
   /* font-family: 'Space Grotesk', sans-serif; */
-  background: var(--light-blue);
+  background: var(--light-purple);
 }
 
 /* custom header */
@@ -84,6 +84,16 @@ body {
 .btn-secondary:hover {
   background: var(--dark-blue);
   color: var(--white) !important;
+}
+
+.text-button {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.text-button:hover {
+  text-decoration: underline;
+  color: var(--dark-blue);
 }
 /* end button */
 
@@ -228,3 +238,53 @@ body {
   }
 }
 /* end brand section */
+
+/* feature section */
+.features .features-wrapper .big-feature-card {
+  padding: 30px;
+  border-radius: 16px;
+  background: var(--white);
+  padding-bottom: 60px;
+  cursor: pointer;
+}
+
+.features .features-wrapper .small-feature-card {
+  padding: 30px;
+  border-radius: 16px;
+  background: var(--white);
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+
+.features .features-wrapper h3 {
+  padding-top: 16px;
+}
+
+.features .features-wrapper .icon {
+  float: left;
+  width: 60px;
+  height: 200px;
+  margin-right: 18px;
+}
+
+.features .features-wrapper .small-feature-card .icon {
+  height: 100px;
+}
+
+.features .features-wrapper .icon img {
+  width: 60px;
+  height: 60px;
+}
+
+/* hover blur effect */
+.features-wrapper:hover .big-feature-card:not(:hover) {
+  filter: blur(4px);
+  transition: all 0.3s ease;
+}
+
+.features-wrapper:hover .small-feature-card:not(:hover) {
+  filter: blur(4px);
+  transition: all 0.3s ease;
+}
+/* end hover blur effect */
+/* end feature section */
