@@ -22,8 +22,7 @@
 
 body {
   font-family: 'DM Sans', sans-serif;
-  /* font-family: 'Space Grotesk', sans-serif; */
-  background: var(--light-purple);
+  background: var(--light-blue);
 }
 
 /* custom header */
@@ -167,6 +166,10 @@ body {
   margin-bottom: 10px;
 }
 
+.mb-16 {
+  margin-bottom: 16px;
+}
+
 .mb-20 {
   margin-bottom: 20px;
 }
@@ -288,3 +291,48 @@ body {
 }
 /* end hover blur effect */
 /* end feature section */
+
+/* booking section */
+/* custom form */
+.form-control {
+  background: var(--white);
+  border: 0;
+  border-radius: 50px;
+  padding: 12px 20px 12px 20px;
+}
+
+/* custom select */
+.form-select {
+  background: var(--white);
+  background-image: url(../img/icons/icon_dropdown.svg);
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  background-size: 20px;
+  border: 0;
+  border-radius: 50px;
+  padding: 12px 20px 12px 20px;
+}
+
+/* custom textarea */
+textarea.form-control {
+  border-radius: 16px;
+}
+/* end booking section */
+
+/* footer */
+.footer {
+  background: var(--white);
+  color: var(--dark-grey);
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--dark-grey);
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: var(--blue);
+}
+/* end footer */
