@@ -18,6 +18,9 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <!-- sweet alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- css -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -320,6 +323,7 @@
                       class="form-control"
                       required
                       pattern="[a-zA-Z\s]+"
+                      maxlength="50"
                     />
                   </div>
                   <div class="mb-16">
@@ -391,5 +395,21 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+
+    <!-- sweet alert -->
+    <script>
+      function submitForm() {
+        swal({
+          title: 'Success!',
+          text: 'Your form has been submitted!',
+          icon: 'success',
+          button: 'OK',
+        });
+      }
+
+      // Add event listener to the submit button
+      document.querySelector('form').addEventListener('submit', submitForm);
+    </script>
+    <!-- end sweet alert -->
   </body>
 </html>
