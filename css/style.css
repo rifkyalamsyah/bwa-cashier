@@ -154,6 +154,10 @@ body {
   margin-top: 70px;
 }
 
+.mt-30 {
+  margin-top: 30px;
+}
+
 .mr-10 {
   margin-right: 10px;
 }
@@ -336,3 +340,239 @@ textarea.form-control {
   color: var(--blue);
 }
 /* end footer */
+
+/* Mobie */
+@media (max-width: 576px) {
+  /* navbar */
+  .navbar .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  /* end navbar */
+
+  /* hero section */
+  .hero {
+    margin-top: 60px;
+  }
+
+  .hero .badge {
+    display: flex;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  .hero h1,
+  p {
+    text-align: center;
+    line-height: normal;
+  }
+
+  .hero p br {
+    content: '';
+  }
+  /* end hero section */
+
+  /* brand section */
+  .companies {
+    margin-top: 60px;
+  }
+
+  .card-brand {
+    width: 127px;
+    height: 60px;
+    border-radius: 12px;
+  }
+
+  .card-brand .logo {
+    height: 20px;
+    margin-top: 20px;
+  }
+
+  .carousel {
+    margin-bottom: 0;
+    height: 80px;
+  }
+
+  .carousel-left {
+    margin-bottom: 0;
+    height: 80px;
+  }
+
+  .carousel-wrapper {
+    height: 40px;
+  }
+
+  .carousel-wrapper-left {
+    height: 40px;
+  }
+  /* end brand section */
+
+  /* features section */
+  .features {
+    margin-top: 20px;
+  }
+
+  .features h3,
+  p {
+    text-align: center;
+  }
+
+  .features a {
+    display: none;
+  }
+
+  .features .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .features .features-wrapper .icon {
+    float: none;
+    height: 80px;
+    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .features .features-wrapper .small-feature-card .icon {
+    height: 80px;
+  }
+
+  .features .features-wrapper h3 {
+    margin-top: 0;
+  }
+  .features .col-lg-5 {
+    margin-top: 30px;
+  }
+
+  /* end features section */
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  /* navbar */
+  .navbar li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  /* end navbar */
+
+  /* brand section */
+  .companies {
+    margin-top: 60px;
+  }
+
+  .card-brand {
+    width: 127px;
+    height: 60px;
+    border-radius: 12px;
+  }
+
+  .card-brand .logo {
+    height: 20px;
+    margin-top: 20px;
+  }
+
+  .carousel {
+    margin-bottom: 0;
+    height: 80px;
+  }
+
+  .carousel-left {
+    margin-bottom: 0;
+    height: 80px;
+  }
+
+  .carousel-wrapper {
+    height: 40px;
+  }
+
+  .carousel-wrapper-left {
+    height: 40px;
+  }
+  /* end brand section */
+
+  /* feature section */
+  .features a {
+    display: none;
+  }
+
+  .features .col-lg-5 {
+    margin-top: 30px;
+  }
+  /* end feature section */
+
+  /* booking section */
+  .booking {
+    margin-top: 30px;
+    padding-top: 32px;
+  }
+
+  .booking img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  /* end booking section */
+}
+
+/* Laptop */
+@media (max-width: 992px) {
+  /* navbar */
+  .navbar li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  /* end navbar */
+
+  /* brand section */
+  .companies {
+    margin-top: 60px;
+  }
+
+  .card-brand {
+    width: 127px;
+    height: 60px;
+    border-radius: 12px;
+  }
+
+  .card-brand .logo {
+    height: 20px;
+    margin-top: 20px;
+  }
+
+  .carousel {
+    margin-bottom: 0;
+    height: 80px;
+  }
+
+  .carousel-left {
+    margin-bottom: 0;
+    height: 80px;
+  }
+
+  .carousel-wrapper {
+    height: 40px;
+  }
+
+  .carousel-wrapper-left {
+    height: 40px;
+  }
+  /* end brand section */
+
+  /* feature section */
+  .features a {
+    display: none;
+  }
+
+  .features .col-lg-5 {
+    margin-top: 30px;
+  }
+  /* end feature section */
+}
