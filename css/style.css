@@ -450,6 +450,12 @@ textarea.form-control {
   }
 
   /* end features section */
+
+  /* footer */
+  .footer p {
+    font-size: small;
+  }
+  /* end footer */
 }
 
 /* Tablet */
